@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+div{
+    height: 100px;
+    width: 100px;
+    float: left;
+}
+#google{
+    background: url("img/white_sprait.png") red;
+}
+#twitter{
+    background: url("img/white_sprait.png") -100px 0 deepskyblue;
+}
+#mail1{
+    background: url("img/white_sprait.png") -200px 0 orange;
+}
+#facebook{
+    background: url("img/white_sprait.png") -300px 0 blue;
+}
+#rss{
+    background: url("img/white_sprait.png") -400px 0 darkorange;
+}
+#vk{
+    background: url("img/white_sprait.png") 0 100px blue;
+}
+#mail2{
+    background: url("img/white_sprait.png") -100px 100px #fff117;
+}
+#yandex{
+    background: url("img/white_sprait.png") -200px 100px red;
+}
+#liveJournal{
+    background: url("img/white_sprait.png") -300px 100px deepskyblue;
+}
+#classmates{
+    background: url("img/white_sprait.png") -400px 100px darkorange;
+}
