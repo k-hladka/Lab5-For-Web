@@ -1,0 +1,102 @@
+*{
+    margin:0;
+    padding: 0;
+    font-size: 15px;
+}
+select{
+  width: 13rem;
+    height: 2rem;
+    margin-right: 1px;
+    margin-bottom: 5px;
+    padding-left: 4px;
+}
+div:nth-child(6)>label:nth-child(3), div:nth-child(6)>label:last-child{
+    margin-left: 2px;
+    margin-right: 13px;
+    font-weight: normal;
+}
+div{
+    float: right;
+    clear: both;
+    text-align: right;
+    line-height: 2.2rem;
+}
+div:nth-child(8)>label{
+    vertical-align: 52px;
+}
+
+div:nth-child(9)>:first-child,div:nth-child(9)>:nth-child(2),
+div:nth-child(9)>:nth-child(8), div:nth-child(9)>:nth-child(9)
+{
+    float:right;
+    margin-right: -5px;
+    margin-left: 10px;
+    vertical-align: top;
+}
+div:nth-child(9)>:first-child,
+div:nth-child(9)>:nth-child(5),
+div:nth-child(9)>:nth-child(8){
+    margin-top: -8px;
+    font-weight: normal;
+}
+div:nth-child(9)>:nth-child(4){
+    float: left;
+    margin-top: -10px;
+    margin-right: -40px;
+}
+div:nth-child(9)>:nth-child(5),div:nth-child(9)>:nth-child(6){
+    float:right;
+    margin-right: -43px;
+    margin-left: 50px;
+    vertical-align: top;
+
+}
+
+label{
+    font-weight: 600;
+    padding-right: 10px;
+}
+form{
+    padding: 10px 50px 10px 25px;
+    float:left;
+    overflow: hidden;
+    background-color: rgba(198,200,202,0.22);
+    border: rgba(166,167,169,0.34) 2px solid;
+}
+input{
+    line-height: 1.5rem;
+}
+[type='text'], [type='email']{
+    background-color: rgba(255 255 153/70%);
+    border: rgba(128 128 0 /90%) 2px solid;
+}
+[type='password']{
+    background-color: rgba(255 192 203/30%);
+    border: rgba(255 20 147/70%) 2px solid;
+}
+option, select{
+    background-color: rgba(138 43 226/20%);
+    border: rgba(75 0 130/70%) 2px solid;
+}
+textarea{
+    width: 12.7rem;
+    margin-right: 1px;
+    height: 100px;
+    background-color: rgba(144 238 144/50%);
+    border: rgba(34 139 34/80%) 2px solid;
+}
+div>button:first-child{
+    font-weight: 500;
+    padding: 3px;
+    background-color: rgba(124 252 0/70%);
+    border: #B0C7D8 1px solid;
+}
+div>button:last-child{
+    font-weight: 500;
+    padding: 3px;
+    background-color: rgba(255 99 71/80%);
+    border: #B0C7D8 1px solid;
+}
+label+input[type='checkbox']:nth-child(6){
+    box-shadow: 0 0 2px 1px rgba(0 255 255/60%);
+}
