@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul li{
+    width: 100px;
+    height: 40px;
+    border: #B0C7D8 1px solid;
+    text-align: center;
+    padding: 10px 0;
+    list-style-type: none;
+    border-radius: 3px;
+}
+li:hover, li:hover>a{
+    background-color: #607788;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: #877160;
+}
+li:nth-child(2){
+    position: relative;
+    left: 130px;
+    top: -40px;
+}
+li:nth-child(3){
+    position: relative;
+    left: 260px;
+    top: -80px;
+}
+li:last-child{
+    position: relative;
+    left: 390px;
+    top: -120px;
+}
